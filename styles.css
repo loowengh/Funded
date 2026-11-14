@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-width: 100%;
+  background: #000;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+main {
+  width: 100%;
+  max-width: 3840px;
+  margin: 0 auto;
+}
+
+.slide-link {
+  display: block;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
